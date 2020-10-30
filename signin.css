@@ -72,7 +72,7 @@ txt-field input:valid ~ span::before {
     cursor: pointer;
 }
 .pass:hover {
-    text-decoration: :underline;
+    text-decoration: underline;
 }
 input[type="submit"] {
     width: 100%;
