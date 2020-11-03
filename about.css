@@ -6,16 +6,16 @@
     box-sizing: border-box;
 }
 body {
-    min-height: 100vh;
-    display: flex;
+    min-height: 90vh;
+    display: block;
     align-items: center;
     justify-content: center;
     background-color: black;
 }
 .logo{
     color: #ffffff;
-    height: 60px;
-    font-size: 36px;
+    height: 45px;
+    font-size: 30px;
     line-height: 60px;
     padding: 0px 20px;
     text-align: center;
@@ -68,17 +68,17 @@ inner-container h1 {
     font-weight: 900;
 }
 .text {
-    font-size: 13px;
+    font-size: 18px;
     color: #545454;
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
 }
 .skills {
-    display: flex;
+    display: block;
     justify-content: space-between;
-    font-weight: 700;
-    font-size: 13px;
+    font-weight: 500;
+    font-size: 25px;
 }
 @media screen and (max-width:1200px) {
     .inner-container {
@@ -87,10 +87,10 @@ inner-container h1 {
 }
 @media screen and (max-width:1000px) {
     .about-section{
-        background-size: 100%;
+        background-size: 50%;
         padding: 100px 40px;
     }
     .inner-container{
-        width: 100%;
+        width: 50%;
     }
 }
