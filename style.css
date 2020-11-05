@@ -10,10 +10,10 @@ body{
     padding: 10px;
     margin: 20px 30px;
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #0b0f12;
 }
 .logo{
-    color: #0b0f12;
+    color: #ffffff;
     height: 60px;
     font-size: 36px;
     line-height: 60px;
@@ -26,7 +26,9 @@ body{
 }
 .menu{
     float: right;
+
 }
+
 .fix{
     clear: both;
 }
@@ -43,7 +45,7 @@ body{
     list-style: none;
 }
 .menu ul li a{
-    color: black;
+    color: white;
     font-size: 17px;
     text-transform: uppercase;
 }
@@ -109,6 +111,7 @@ input[type=button]:active {
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  
   
 }
 

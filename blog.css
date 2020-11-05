@@ -4,11 +4,48 @@ body{
     font-size: 1rem;
     line-height: 1.6;
     font-weight: 400;
-    background-color: seashell;
+    background-color: black;
     color: black;
 }
+.logo{
+    color: #ffffff;
+    height: 45px;
+    font-size: 30px;
+    line-height: 60px;
+    padding: 0px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+    opacity: .5;
+}
+.menu{
+    float: right;
+}
+.fix{
+    clear: both;
+}
+.menu ul{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.menu ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    list-style: none;
+}
+.menu ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
 .blog{
-    margin: 15px 0;
+    margin: 10px 0;
+    margin: 25px 50px 75px 100px;
 }
 p{
     text-align: left;
@@ -35,7 +72,7 @@ p{
     text-transform: capitalize;
 }
 .blog-info span{
-    display: block;
+    display: none;
     margin: 20px 0;
     color: #343a40;
     text-transform: capitalize;

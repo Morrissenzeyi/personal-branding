@@ -135,6 +135,8 @@ section .container .contactform .formbox .inputbox {
     position: relative;
     margin-top: 10px;
     width: 100%;
+
+  
 }
 section .container .contactform .formbox .inputbox.w50 {
     width: 50%;
