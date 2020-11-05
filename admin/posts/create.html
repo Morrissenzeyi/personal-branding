@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title><link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="navigation-container">
+            <a href="#" class="logo">Senzeyi</a>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="sign.html">Sign in</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="admin-page">
+
+            <!--left side-->
+            <div class="left side bar">
+                <ul>
+                    <li><a href="index.html">Manage posts</a></li>
+                    <li><a href="../users/index.html">Manage posts</a></li>
+                    <li><a href="../topics/index.html">Manage posts</a></li>
+                </ul>
+            </div>
+
+            <!-- // left side-->
+            <div class="admin-content">
+                <div class="button-group">
+                    <a href="create.html"class="btn btn-big">Add post</a>
+                    <a href="manage.html"class="btn btn-big">Manage post</a>
+                </div>
+                <div class="content">
+                    <h2 class="page-title">manage posts</h2>
+                    <form action="create.html" method="post">
+                        <div>
+                            <label>title</label>
+                            <input type="text" name="title" class="text-input">
+                        </div>
+                        <div>
+                        <label>Body</label>
+                        <textarea name="body" id="body"></textarea>
+                    </div>
+                    <div>
+                        <label>topic</label>
+                        <select name="topic" class="text-input">
+                            <option value="poetry">poetry</option>
+                            <option value="life lessons">life lessons</option>
+                        </select>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-big">add post</button>
+                    </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html> 
