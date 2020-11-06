@@ -18,10 +18,11 @@ body {
 .center h1 {
     text-align: center;
     padding: 0 0 20px 0;
+    color: skyblue;
     border-bottom: 1px solid silver;
 }
 .center form {
-    padding: 0 40px;
+    padding: 0 30px 40px 30px;
     box-sizing: border-box;
 }
 form .txt-field {
@@ -34,6 +35,7 @@ form .txt-field {
     padding: 0 5px;
     height: 40px;
     font-size: 16px;
+    color: seagreen;
     border: none;
     background: none;
     outline: none;
@@ -72,7 +74,7 @@ txt-field input:valid ~ span::before {
     cursor: pointer;
 }
 .pass:hover {
-    text-decoration: :underline;
+    text-decoration: underline;
 }
 input[type="submit"] {
     width: 100%;
