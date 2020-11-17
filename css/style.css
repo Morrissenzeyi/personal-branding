@@ -164,11 +164,13 @@ input[type=button]:active {
     color: white;
     
   }
+  /* linkedin icon */
   .fa-linkedin {
     background: #007bb5;
     color: white;
     
   }
+  /* githug icon */
   .fa-github {
       background: #fff;
     color: #0b0f12;
