@@ -176,6 +176,38 @@ input[type=button]:active {
     color: #0b0f12;
 
   }
+  @media screen and (max-width:720px) {
+    .menu {
+        display: none;
+    }
+    .logo{
+        font-size: 1rem;
+        margin-top: -1rem;
+    }
+    .text {
+        
+        margin-top: 80px;
+        
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 169px;
+        
+        position: absolute;
+    }
+    .text h1{
+        font-size: 1.7em;
+    }
+    .text p {
+        font-size: 1.2em;
+        font-weight: normal;
+    }
+    .text input {
+    font-size: .8rem;
+    padding: 2px 7px;
+    margin-bottom: .5em;
+    }
+}
   
   
 
