@@ -185,15 +185,13 @@ input[type=button]:active {
         margin-top: -1rem;
     }
     .text {
-        
         margin-top: 80px;
-        
         justify-content: center;
         align-items: center;
         text-align: center;
-        height: 169px;
-        
+        height: 169px; 
         position: absolute;
+        
     }
     .text h1{
         font-size: 1.7em;
@@ -208,6 +206,7 @@ input[type=button]:active {
     margin-bottom: .5em;
     }
 }
+
   
   
 
