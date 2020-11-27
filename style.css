@@ -1,0 +1,212 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(/images/profile.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    box-sizing: border-box;
+    
+    
+    background-position: center;
+    background-attachment: inherit;
+    background-size: cover;
+   
+     
+}
+
+.navigation-container{
+    position: relative;
+    max-width: 100%;
+    padding: 10px;
+    /*margin: 20px 30px;*/
+    
+    
+}
+.logo{
+    color: #ffffff;
+    height: 60px;
+    font-size: 36px;
+    line-height: 60px;
+    padding: 0px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+.menu{
+    float: right;
+
+}
+
+.fix{
+    clear: both;
+}
+.menu ul{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+
+}
+.menu ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    list-style: none;
+    
+}
+.menu ul li a{
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 20px;
+
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blue;
+    
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5) ;
+    padding-top: 0px;
+    margin-top: 0px;
+    height: 150vh;
+
+    
+}
+.person{
+    position: absolute;
+    top: 0;
+    left: 62%;
+    height: 469px;
+    width: auto;
+}
+.person img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+h1{
+    font-weight: bold;
+    margin: 0px;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+       
+}
+p{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0px 30px;
+    color: rgb(255, 255, 255);
+    padding-top: 0px;
+    
+}
+.text{
+    left: 200px;
+    margin-top: 150px;
+    width: 65%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 469px;
+    padding: 20 20 20 20;
+    position: absolute;
+}
+input[type=button] {
+    border: 1px solid #fff;
+    border-radius: 30px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    outline: none;
+    transition: transform 80ms ease-in;
+     
+}
+input[type=button]:active {
+    transform: scale(.95);
+    
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  
+  
+  
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.5;
+  
+}
+
+/* Set a specific color for each brand */
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    
+  }
+  /* linkedin icon */
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    
+  }
+  /* githug icon */
+  .fa-github {
+      background: #fff;
+    color: #0b0f12;
+
+  }
+  @media screen and (max-width:720px) {
+    .menu {
+        display: none;
+    }
+    .logo{
+        font-size: 1rem;
+        margin-top: -1rem;
+    }
+    .text {
+        margin-top: 80px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 169px; 
+        position: absolute;
+        
+    }
+    .text h1{
+        font-size: 1.7em;
+    }
+    .text p {
+        font-size: 1.2em;
+        font-weight: normal;
+    }
+    .text input {
+    font-size: .8rem;
+    padding: 2px 7px;
+    margin-bottom: .5em;
+    }
+}
+
+  
+  
+
